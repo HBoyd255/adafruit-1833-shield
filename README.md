@@ -24,6 +24,13 @@ Here is what the footprint looks like in KiCad:
 
 ![3D Model](images/3DModel.png)
 
+## Setup
+
+To get the library working, you need to add path of this repository to the KiCad
+library search path. This can be done by going to
+`Preferences -> Configure Paths` and adding the path with the name
+`Adafruit_1833_Shield`.
+
 ## License
 
 This footprint is derived from the original board by Adafruit, used under CC

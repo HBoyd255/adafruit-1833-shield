@@ -152,6 +152,28 @@
 		(layer "F.SilkS")
 		(uuid "45ea7255-e1ba-4e41-bcfb-1c2fcd1b8827")
 	)
+	(fp_circle
+		(center -7.619999 -2.599999)
+		(end -6.369999 -2.599999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "86f198a6-4e7e-4ea8-a880-eb50f988262a")
+	)
+	(fp_circle
+		(center 7.62 -2.6)
+		(end 8.87 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "6108a86c-e8e1-4fb1-b906-bf20915d4858")
+	)
 	(fp_text user "5V"
 		(at 5.28 1.9 0)
 		(unlocked yes)
@@ -213,7 +235,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.38 7.9 0)
+		(at 0 6.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8515ed92-1b9c-4c43-b2dd-7c77518e1fae")
@@ -274,30 +296,10 @@
 		(thermal_bridge_angle 0)
 		(uuid "4e317151-aba2-4d8f-ba4d-1147388ce28c")
 	)
-	(pad "P$1" thru_hole circle
-		(at -7.62 -2.6)
-		(size 3.2 3.2)
-		(drill 2.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "13a41393-40d7-4acd-b887-8ddb67eb46a5")
-	)
-	(pad "P$1" thru_hole circle
-		(at 7.62 -2.6)
-		(size 3.2 3.2)
-		(drill 2.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "18c05edf-ca79-40df-b173-4ba974439e65")
-	)
 	(group ""
 		(uuid "b0d7c212-82d8-46c4-b2a7-e13db892d82b")
-		(members "13a41393-40d7-4acd-b887-8ddb67eb46a5" "18c05edf-ca79-40df-b173-4ba974439e65"
-			"2b13040c-4080-407d-8a34-ff48ed001b45" "4e317151-aba2-4d8f-ba4d-1147388ce28c"
+		(members "2b13040c-4080-407d-8a34-ff48ed001b45" "4e317151-aba2-4d8f-ba4d-1147388ce28c"
+			"6108a86c-e8e1-4fb1-b906-bf20915d4858" "86f198a6-4e7e-4ea8-a880-eb50f988262a"
 			"e1e04ec3-3932-4e27-a45a-7bfa459b6c1e" "e651cda1-78b8-480a-ae56-906a4d2f4a9d"
 			"ecff1518-9c3e-4821-a6cf-b4b2689535d7"
 		)
@@ -325,7 +327,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "C:/Users/Harry/OneDrive/04_Projects/Hardware/KiCadComponents/adafruit-1833-shield/3DModels/microB.wrl"
+	(model "${Adafruit_1833_Shield}/3DModels/microB.wrl"
 		(offset
 			(xyz 0 0 3.25)
 		)
