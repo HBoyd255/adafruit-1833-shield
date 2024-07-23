@@ -17,9 +17,10 @@
 		)
 	)
 	(property "Value" "Adafruit_1833_Shield"
-		(at 0 -0.25 0)
+		(at 0 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "83c0aefc-08a4-40a0-809d-0bd3517c3ec1")
 		(effects
 			(font
@@ -107,6 +108,39 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d410e080-2378-4910-8d05-a38df718fb41")
+	)
+	(fp_rect
+		(start -3.75 -5)
+		(end 3.75 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "913b3c2e-13f0-4f40-ad30-5dd17871dc4a")
+	)
+	(fp_rect
+		(start -2.5 -4)
+		(end -2 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "85ac73f0-589f-4dec-9098-e72f7160766b")
+	)
+	(fp_rect
+		(start 2 -4)
+		(end 2.5 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "495a0728-cf56-4c6b-a05f-707fbdf50110")
 	)
 	(fp_arc
 		(start -10.16 -2.6)
