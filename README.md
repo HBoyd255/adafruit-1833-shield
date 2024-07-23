@@ -8,6 +8,22 @@ for surface mount soldering.
 
 ![alt](https://cdn-shop.adafruit.com/970x728/1833-00.jpg)
 
+## Images
+
+Here is what the footprint looks like in KiCad:
+
+### Footprint
+
+![Footprint](images/Footprint.png)
+
+### Silkscreen
+
+![Silkscreen](images/Silkscreen.png)
+
+### 3D Model
+
+![3D Model](images/3DModel.png)
+
 ## License
 
 This footprint is derived from the original board by Adafruit, used under CC
