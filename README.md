@@ -1,4 +1,4 @@
-# Adafruit 1833 USB Micro B Shield
+# Adafruit 1833 Shield
 
 This is a KiCad library representing the
 [Adafruit 1833 USB Micro B](https://www.adafruit.com/product/1833), as a shield.
