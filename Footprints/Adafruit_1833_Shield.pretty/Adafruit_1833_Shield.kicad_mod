@@ -7,6 +7,7 @@
 		(at 0 -6.48 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "987a1538-2b87-494a-bd5e-800e5217b9b0")
 		(effects
 			(font
@@ -16,9 +17,9 @@
 		)
 	)
 	(property "Value" "Adafruit_1833_Shield"
-		(at -0.38 6.4 0)
+		(at 0 -0.25 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "83c0aefc-08a4-40a0-809d-0bd3517c3ec1")
 		(effects
 			(font
