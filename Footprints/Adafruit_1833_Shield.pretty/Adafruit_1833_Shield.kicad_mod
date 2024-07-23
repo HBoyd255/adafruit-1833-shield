@@ -324,4 +324,15 @@
 			(xyz 0 0 90)
 		)
 	)
+	(model "C:/Users/Harry/OneDrive/04_Projects/Hardware/KiCadComponents/adafruit-1833-shield/3DModels/microB.wrl"
+		(offset
+			(xyz 0 0 3.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
